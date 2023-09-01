@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Christmas Countdown</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="box">
+      <video autoplay muted loop id="background-video">
+       <source src="images/snow-bg.mp4" type="video/mp4">
+         </video>
+
+      <div class="overlay">
+        <h2>Chrismas Countdown!</h2>
+        <h3 id="end-date">24 December 2023 00:00</h3>
+        <div class="col">
+          <div class="items">
+            <input type="text" readonly value="0">
+            <br/>
+            <label class="custom-font" for="">Days</label>
+          </div>
+
+
+        <div class="items">
+          <input type="text" readonly value="0">
+          <br/>
+          <label class="custom-font" for="">Hours</label>
+        </div>
+
+        <div class="items">
+          <input type="text" readonly value="0">
+          <br/>
+          <label class="custom-font" for="">Minutes</label>
+        </div>
+
+        <div class="items">
+          <input type="text" readonly value="0">
+          <br/>
+          <label class="custom-font" for="">Seconds</label>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
